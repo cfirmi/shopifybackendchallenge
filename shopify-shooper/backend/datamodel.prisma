@@ -1,0 +1,7 @@
+
+type Product {
+  id: ID! @unique
+  product_name: String!
+  product_price: Int!
+  product_inventory_total: Int!
+}
